@@ -8,7 +8,7 @@ public class UsersRepositoryImpl implements UsersRepository {
 	private Logger logger;
 	
 	public User createUser(String name) {
-		logger.log("Tworzenie użytkownija: " + name);
+		logger.log("Tworzenie użytkownika: " + name);
 		return new User(name);
 	}
 
